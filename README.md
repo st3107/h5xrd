@@ -7,15 +7,15 @@ Welcome to h5xrd! The installation uses [Anaconda](https://anaconda.org/). Open 
 
 ``conda env create -f environment.yml python=3.8``
 
-Activate the environment.
+1. Activate the environment.
 
 ``conda create h5xrd``
 
-Fork and clone the github repo or download and unzip it. Open the terminal, cd into the repo and pip install it (development mode is recommended).
+2. Fork and clone the github repo or download and unzip it. Open the terminal, cd into the repo and pip install it (development mode is recommended).
 
 ``pip install -e .``
 
-(Optional) Add an alias to the program in the bash profile. Substitute the content in "<>" to the path on your computer.
+3. (Optional) Add an alias to the program in the bash profile. Substitute the content in "<>" to the path on your computer.
 
 ``alias h5xrd="python <path to h5xrd/main.py>""``
 
@@ -26,3 +26,8 @@ data in each h5 files and save them as csv files in a folder named "csv", then, 
 directory of "h5xrd". Substitute the content in "<>" to the path on your computer.
 
 ``python main.py <path to data folder> <path to csv folder>``
+
+If you have already done the step 3 in the installation, then you can run the following command instead.
+It doesn't have to be run inside the h5xrd folder.
+
+``h5xrd <path to data folder> <path to csv folder>``
