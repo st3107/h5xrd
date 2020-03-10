@@ -39,5 +39,7 @@ It doesn't have to be run inside the h5xrd folder.
 If you would like to use it in python console or IDE, use the "main" function in "h5xrd.main". Below is an example,
 assuming the data is in the folder "data" and you would like to save csv files in the folder "csv".
 
->>> from h5xrd.main import main
->>> main("data", "csv")
+> from h5xrd.main import main
+>
+> main("data", "csv")
+>
