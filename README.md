@@ -21,6 +21,8 @@ Welcome to h5xrd! The installation uses [Anaconda](https://anaconda.org/). Open 
 
 ## Usage
 
+### Use in the command line
+
 If you have a folder named "data" and there are h5 files inside and you would like to extract the '2theta' and 'main'
 data in each h5 files and save them as csv files in a folder named "csv", then, run the following command in the
 directory of "h5xrd". Substitute the content in "<>" to the path on your computer.
@@ -31,3 +33,11 @@ If you have already done the step 3 in the installation, then you can run the fo
 It doesn't have to be run inside the h5xrd folder.
 
 ``h5xrd <path to data folder> <path to csv folder>``
+
+### Use in python console or IDE.
+
+If you would like to use it in python console or IDE, use the "main" function in "h5xrd.main". Below is an example,
+assuming the data is in the folder "data" and you would like to save csv files in the folder "csv".
+
+>>> from h5xrd.main import main
+>>> main("data", "csv")
