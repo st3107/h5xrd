@@ -11,13 +11,13 @@ Welcome to h5xrd! The installation uses [Anaconda](https://anaconda.org/). Open 
 
 ``conda create h5xrd``
 
-2. Fork and clone the github repo or download and unzip it. Open the terminal, cd into the repo and pip install it (development mode is recommended).
+2. Fork and clone the github repo or download and unzip it. Open the terminal, cd into the repo and pip install it (development mode "-e" is recommended).
 
 ``pip install -e .``
 
 3. (Optional) Add an alias to the program in the bash profile. Substitute the content in "<>" to the path on your computer.
 
-``alias h5xrd="python <path to h5xrd/main.py>""``
+``alias h5xrd="python <path to h5xrd/main.py>"``
 
 ## Usage
 
