@@ -1,0 +1,8 @@
+name: h5xrd
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - fire=0.2.1=py_0
+  - h5py=2.10.0=nompi_py37h106b333_101
+  - pandas=0.24.2=py37h0a44026_0
